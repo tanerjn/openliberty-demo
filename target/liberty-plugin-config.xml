@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/opt/prj/openliberty-sample/target/liberty/wlp</installDirectory>
+    <serverDirectory>/opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer</serverDirectory>
+    <userDirectory>/opt/prj/openliberty-sample/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer</serverOutputDirectory>
+    <serverName>sampleAppServer</serverName>
+    <configDirectory>/opt/prj/openliberty-sample/src/main/liberty/config</configDirectory>
+    <configFile>/opt/prj/openliberty-sample/src/main/liberty/config/server.xml</configFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>io.openliberty.sample.getting.started.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-kernel</artifactId>
+        <version>25.0.0.4</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>/Users/tanermetin/.m2/repository/io/openliberty/openliberty-kernel/25.0.0.4/openliberty-kernel-25.0.0.4.zip</assemblyArchive>
+    <assemblyInstallDirectory>/opt/prj/openliberty-sample/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+</liberty-plugin-config>

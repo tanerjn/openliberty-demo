@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/opt/prj/openliberty-sample/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/opt/prj/openliberty-sample/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/opt/prj/openliberty-sample/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

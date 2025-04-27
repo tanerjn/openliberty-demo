@@ -1,0 +1,10 @@
+ rm -rf ~/.m2/repository/org/apache/maven/plugins
+ 1064  27.4.2025 13:00  mvn clean install -U
+ 1065  27.4.2025 13:02  mvn clean package:run 
+ 1066  27.4.2025 13:05  mvn -v
+ 1067  27.4.2025 13:06  mvn clean install
+ 1068  27.4.2025 13:06  mvn dependency:resolve
+ 1069  27.4.2025 13:07  mvn clean package
+ 1080  27.4.2025 13:09  mvn validate
+ 1082  27.4.2025 13:11  mvn clean install
+ 1083  27.4.2025 13:11  mvn liberty:dev

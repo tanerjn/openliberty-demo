@@ -1,0 +1,179 @@
+********************************************************************************
+product = Open Liberty 25.0.0.4 (wlp-1.0.100.cl250420250407-1902)
+wlp.install.dir = /opt/prj/openliberty-sample/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk-17.0.11.jdk/Contents/Home
+java.version = 17.0.11
+java.runtime = OpenJDK Runtime Environment (17.0.11+9-adhoc.admin.jdk17u)
+os = Mac OS X (12.6.1; x86_64) (en_DE)
+process = 89723@mbp
+Classpath = /opt/prj/openliberty-sample/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/tanermetin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[27/04/2025, 15:22:17:695 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server sampleAppServer has been launched.
+[27/04/2025, 15:22:18:610 CEST] 0000001c com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[27/04/2025, 15:22:19:205 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2,209 seconds
+[27/04/2025, 15:22:19:272 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[27/04/2025, 15:22:20:795 CEST] 0000001a com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[27/04/2025, 15:22:21:036 CEST] 0000001b com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[27/04/2025, 15:22:21:704 CEST] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[27/04/2025, 15:22:21:707 CEST] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[27/04/2025, 15:22:21:709 CEST] 0000001b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[27/04/2025, 15:22:21:722 CEST] 0000001d org.jboss.weld.Version                                       I WELD-000900: 5.1.1 (SP2)
+[27/04/2025, 15:22:21:967 CEST] 00000023 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[27/04/2025, 15:22:21:973 CEST] 00000023 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[27/04/2025, 15:22:22:022 CEST] 0000002b com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[27/04/2025, 15:22:22:144 CEST] 0000001a ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[27/04/2025, 15:22:22:895 CEST] 0000002b com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0,872 seconds. LTPA key file: /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/resources/security/ltpa.keys
+[27/04/2025, 15:22:22:905 CEST] 0000002b com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0,888 seconds.
+[27/04/2025, 15:22:23:660 CEST] 0000001a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[27/04/2025, 15:22:23:675 CEST] 0000001a .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[27/04/2025, 15:22:24:279 CEST] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application io.openliberty.sample.getting.started.
+[27/04/2025, 15:22:24:280 CEST] 0000002d bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The io.openliberty.sample.getting.started application is using the loose application definition at the /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/apps/io.openliberty.sample.getting.started.war.xml location.
+[27/04/2025, 15:22:24:641 CEST] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[27/04/2025, 15:22:24:645 CEST] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[27/04/2025, 15:22:24:645 CEST] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[27/04/2025, 15:22:24:641 CEST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[27/04/2025, 15:22:24:646 CEST] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[27/04/2025, 15:22:24:646 CEST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[27/04/2025, 15:22:24:647 CEST] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/metrics/
+[27/04/2025, 15:22:24:649 CEST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/ibm/api/
+[27/04/2025, 15:22:24:650 CEST] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/health/
+[27/04/2025, 15:22:24:757 CEST] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[27/04/2025, 15:22:24:757 CEST] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[27/04/2025, 15:22:24:757 CEST] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[27/04/2025, 15:22:24:830 CEST] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:22:24:846 CEST] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:22:24:847 CEST] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:22:24:911 CEST] 00000023 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 2,938 seconds. SSL key file: /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/resources/security/key.p12
+[27/04/2025, 15:22:24:912 CEST] 00000023 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/resources/security/key.p12 of type: PKCS12
+[27/04/2025, 15:22:25:017 CEST] 0000002c com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[27/04/2025, 15:22:25:073 CEST] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.4.0.internal.jakarta] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[27/04/2025, 15:22:25:075 CEST] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.4.0.internal.jakarta] [/health] [HealthCheckServlet]: Initialization successful.
+[27/04/2025, 15:22:25:080 CEST] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.4.0.internal.jakarta] [/health] [HealthCheckStartupServlet]: Initialization successful.
+[27/04/2025, 15:22:25:081 CEST] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.4.0.internal.jakarta] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[27/04/2025, 15:22:25:139 CEST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.5.0.public.internal] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[27/04/2025, 15:22:25:345 CEST] 0000002b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:22:26:352 CEST] 0000002d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[27/04/2025, 15:22:26:352 CEST] 0000002d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[27/04/2025, 15:22:26:352 CEST] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:22:26:356 CEST] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[27/04/2025, 15:22:26:356 CEST] 0000002c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:22:26:408 CEST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application io.openliberty.sample.getting.started started in 2,128 seconds.
+[27/04/2025, 15:22:26:418 CEST] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:22:26:619 CEST] 00000027 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[27/04/2025, 15:22:26:622 CEST] 00000027 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[27/04/2025, 15:22:26:661 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-4.0, distributedMap-1.0, jndi-1.0, json-1.0, jsonb-3.0, jsonp-2.1, monitor-1.0, mpConfig-3.1, mpHealth-4.0, mpMetrics-5.1, restfulWS-3.1, restfulWSClient-3.1, ssl-1.0, transportSecurity-1.0].
+[27/04/2025, 15:22:26:662 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 7,461 seconds.
+[27/04/2025, 15:22:26:662 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The sampleAppServer server is ready to run a smarter planet. The sampleAppServer server started in 9,669 seconds.
+[27/04/2025, 15:22:26:904 CEST] 0000002c org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.sample.SampleApplication$Proxy$_$$_WeldClientProxy
+[27/04/2025, 15:22:26:945 CEST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Initialization successful.
+[27/04/2025, 15:22:29:052 CEST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:22:29:055 CEST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Destroy successful.
+[27/04/2025, 15:22:29:076 CEST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application io.openliberty.sample.getting.started has stopped successfully.
+[27/04/2025, 15:22:29:085 CEST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application io.openliberty.sample.getting.started.
+[27/04/2025, 15:22:29:085 CEST] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The io.openliberty.sample.getting.started application is using the loose application definition at the /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/apps/io.openliberty.sample.getting.started.war.xml location.
+[27/04/2025, 15:22:29:110 CEST] 0000002d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:22:29:432 CEST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[27/04/2025, 15:22:29:432 CEST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[27/04/2025, 15:22:29:433 CEST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:22:29:433 CEST] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[27/04/2025, 15:22:29:434 CEST] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:22:29:441 CEST] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application io.openliberty.sample.getting.started updated in 0,355 seconds.
+[27/04/2025, 15:22:29:476 CEST] 00000027 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:22:29:538 CEST] 00000029 org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.sample.SampleApplication$Proxy$_$$_WeldClientProxy
+[27/04/2025, 15:22:29:546 CEST] 00000029 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Initialization successful.
+[27/04/2025, 15:22:36:598 CEST] 0000003d com.ibm.ws.webcontainer.extension                            W SRVE0190E: File not found: /favicon.ico
+[27/04/2025, 15:23:06:589 CEST] 0000002d com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: The SSL connection cannot be initialized from the 0:0:0:0:0:0:0:1 host and 9.443 port on the remote client to the 0:0:0:0:0:0:0:1 host and 53.977 port on the local server. Exception: javax.net.ssl.SSLException: The WebSphere server received an unencrypted inbound communication on a secure connection.  This does not indicate a problem with the WebSphere server. To resolve the issue, configure the client to use SSL or to connect to a port on the WebSphere server that does not require SSL.
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker.noteHandshakeError(SSLHandshakeErrorTracker.java:88)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:628)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:348)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:169)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:77)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:516)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:586)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:970)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1059)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:298)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[27/04/2025, 15:23:07:648 CEST] 0000002c com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: The SSL connection cannot be initialized from the 0:0:0:0:0:0:0:1 host and 9.443 port on the remote client to the 0:0:0:0:0:0:0:1 host and 53.978 port on the local server. Exception: javax.net.ssl.SSLException: The WebSphere server received an unencrypted inbound communication on a secure connection.  This does not indicate a problem with the WebSphere server. To resolve the issue, configure the client to use SSL or to connect to a port on the WebSphere server that does not require SSL.
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker.noteHandshakeError(SSLHandshakeErrorTracker.java:88)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:628)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:348)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:169)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:77)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:516)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:586)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:970)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1059)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:298)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[27/04/2025, 15:23:07:655 CEST] 0000003e com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: The SSL connection cannot be initialized from the 0:0:0:0:0:0:0:1 host and 9.443 port on the remote client to the 0:0:0:0:0:0:0:1 host and 53.979 port on the local server. Exception: javax.net.ssl.SSLException: The WebSphere server received an unencrypted inbound communication on a secure connection.  This does not indicate a problem with the WebSphere server. To resolve the issue, configure the client to use SSL or to connect to a port on the WebSphere server that does not require SSL.
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker.noteHandshakeError(SSLHandshakeErrorTracker.java:88)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:628)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:348)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:169)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:77)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:516)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:586)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:970)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1059)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:298)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[27/04/2025, 15:23:07:668 CEST] 00000027 com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: The SSL connection cannot be initialized from the 0:0:0:0:0:0:0:1 host and 9.443 port on the remote client to the 0:0:0:0:0:0:0:1 host and 53.980 port on the local server. Exception: javax.net.ssl.SSLException: The WebSphere server received an unencrypted inbound communication on a secure connection.  This does not indicate a problem with the WebSphere server. To resolve the issue, configure the client to use SSL or to connect to a port on the WebSphere server that does not require SSL.
+	at com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker.noteHandshakeError(SSLHandshakeErrorTracker.java:88)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:628)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:348)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:169)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:77)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:516)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:586)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:970)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1059)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:298)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[27/04/2025, 15:27:32:370 CEST] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:27:32:411 CEST] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Destroy successful.
+[27/04/2025, 15:27:32:434 CEST] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application io.openliberty.sample.getting.started has stopped successfully.
+[27/04/2025, 15:27:32:447 CEST] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application io.openliberty.sample.getting.started.
+[27/04/2025, 15:27:32:447 CEST] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The io.openliberty.sample.getting.started application is using the loose application definition at the /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/apps/io.openliberty.sample.getting.started.war.xml location.
+[27/04/2025, 15:27:32:708 CEST] 00000043 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:27:32:834 CEST] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[27/04/2025, 15:27:32:834 CEST] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[27/04/2025, 15:27:32:835 CEST] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:27:32:835 CEST] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[27/04/2025, 15:27:32:836 CEST] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:27:32:843 CEST] 0000002b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application io.openliberty.sample.getting.started updated in 0,396 seconds.
+[27/04/2025, 15:27:32:857 CEST] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:27:32:993 CEST] 0000002b org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.sample.SampleApplication$Proxy$_$$_WeldClientProxy
+[27/04/2025, 15:27:33:000 CEST] 00000043 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[27/04/2025, 15:27:33:003 CEST] 00000043 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[27/04/2025, 15:27:33:024 CEST] 00000043 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[27/04/2025, 15:27:33:033 CEST] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Initialization successful.
+[27/04/2025, 15:27:33:908 CEST] 00000044 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:27:33:909 CEST] 00000044 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Destroy successful.
+[27/04/2025, 15:27:33:915 CEST] 00000044 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application io.openliberty.sample.getting.started has stopped successfully.
+[27/04/2025, 15:27:33:924 CEST] 00000044 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application io.openliberty.sample.getting.started.
+[27/04/2025, 15:27:33:924 CEST] 00000044 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The io.openliberty.sample.getting.started application is using the loose application definition at the /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/apps/io.openliberty.sample.getting.started.war.xml location.
+[27/04/2025, 15:27:33:945 CEST] 00000046 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:27:34:221 CEST] 00000044 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[27/04/2025, 15:27:34:222 CEST] 00000044 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[27/04/2025, 15:27:34:222 CEST] 00000044 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.178.20:9080/
+[27/04/2025, 15:27:34:223 CEST] 0000003e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[27/04/2025, 15:27:34:223 CEST] 0000003e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[27/04/2025, 15:27:34:229 CEST] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application io.openliberty.sample.getting.started updated in 0,305 seconds.
+[27/04/2025, 15:27:34:259 CEST] 00000044 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /opt/prj/openliberty-sample/target/liberty/wlp/usr/servers/sampleAppServer/logs/state/plugin-cfg.xml.
+[27/04/2025, 15:27:34:358 CEST] 0000003e org.jboss.resteasy.resteasy_jaxrs.i18n                       I RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class io.openliberty.sample.SampleApplication$Proxy$_$$_WeldClientProxy
+[27/04/2025, 15:27:34:367 CEST] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.sample.getting.started] [/] [io.openliberty.sample.SampleApplication]: Initialization successful.
+[27/04/2025, 15:39:31:472 CEST] 00000058 com.ibm.ws.webcontainer                                      E SRVE0095I: Servlet has become temporarily unavailable for service: /img/health.svg

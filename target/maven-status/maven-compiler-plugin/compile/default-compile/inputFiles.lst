@@ -1,0 +1,7 @@
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/system/SystemResource.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/config/ConfigResource.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/system/SystemHealth.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/SampleApplication.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/config/CustomConfigSource.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/system/SystemConfig.java
+/opt/prj/openliberty-sample/src/main/java/io/openliberty/sample/system/SystemRuntime.java
